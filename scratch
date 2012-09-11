@@ -1,0 +1,2 @@
+-- active committers in SVN repo
+svn log -r {1990-04-25}:{2012-05-03} | grep "^r" | awk '{print $3}' | sort | uniq -c | sort
