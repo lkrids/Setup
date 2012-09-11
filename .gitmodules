@@ -1,0 +1,9 @@
+[submodule ".vim/nerdtree"]
+	path = .vim/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/javascript-indent"]
+	path = .vim/javascript-indent
+	url = https://github.com/vim-scripts/JavaScript-Indent.git
+[submodule ".vim/zencoding"]
+	path = .vim/zencoding
+	url = https://github.com/mattn/zencoding-vim.git
