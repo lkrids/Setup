@@ -1,4 +1,0 @@
-set titlestring=""
-set gui=none
-set autocomplete=false
-javascript liberator.beep = function(){ return false; }
