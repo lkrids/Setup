@@ -1,0 +1,2 @@
+# prevent rubber-band scrolling (10.8)
+defaults write -g NSScrollViewRubberbanding -int 0
