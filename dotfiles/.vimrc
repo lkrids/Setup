@@ -57,3 +57,6 @@ set nohlsearch
 
 "init matchit
 runtime macros/matchit.vim
+
+"turn off blinking cursor
+:set guicursor+=a:blinkon0
