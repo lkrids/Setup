@@ -9,3 +9,6 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 #Hide Desktop Icons
 defaults write com.apple.finder CreateDesktop -bool false
+
+# Expand save panel by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
