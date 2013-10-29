@@ -6,15 +6,11 @@ syntax on
 noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>
 
-"2 spaces = 1 tab
+"1 tab = 2 spaces
 set shiftwidth=2
 set tabstop=2 
 set autoindent
 filetype plugin indent on
-
-"space tabs
-set expandtab
-retab
 
 "iff uppercase
 set ignorecase
