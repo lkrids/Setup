@@ -1,0 +1,8 @@
+[user]
+  name = Lex Kridler
+  email = lexkridler@gmail.com
+  signingkey =
+  
+[alias]
+  c = commit -S
+  l = log --show-signature
