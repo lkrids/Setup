@@ -6,3 +6,6 @@
 [alias]
   c = commit -S
   l = log --show-signature
+
+[commit]
+  gpgsign = true
