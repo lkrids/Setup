@@ -66,3 +66,8 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+" tell it to use an undo file
+set undofile
+" set a directory to store the undo history
+set undodir=~/.vim/undo/
