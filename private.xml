@@ -6,4 +6,17 @@
     <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
     <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
   </item>
+  <item>
+    <name>setup volume controls</name>
+    <identifier>private.setup_volume_controls</identifier>
+    <autogen>__KeyToKey__ KeyCode::F10, ConsumerKeyCode::VOLUME_MUTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::F11, ConsumerKeyCode::VOLUME_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::F12, ConsumerKeyCode::VOLUME_UP</autogen>
+  </item>
+  <item>
+    <name>setup screen brightness</name>
+    <identifier>private.setup_screen_brighness</identifier>
+    <autogen>__KeyToKey__ KeyCode::F1, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::F2, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
+  </item>
 </root>
