@@ -1,13 +1,13 @@
 # prevent rubber-band scrolling (10.8)
 defaults write -g NSScrollViewRubberbanding -int 0
 
-#Disable window animations
+# Disable window animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 
-#Show path in Finder window
+# Show path in Finder window
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
-#Hide Desktop Icons
+# Hide Desktop Icons
 defaults write com.apple.finder CreateDesktop -bool false
 
 # Expand save panel by default
