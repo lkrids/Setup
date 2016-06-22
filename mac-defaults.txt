@@ -12,6 +12,3 @@ defaults write com.apple.finder CreateDesktop -bool false
 
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-
-# Disables ability to scroll past content and shot back to content ("rubber band")
-defaults write -g NSScrollViewRubberbanding -int 0
